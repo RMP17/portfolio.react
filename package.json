@@ -2,7 +2,7 @@
   "name": "portfolio.react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "portfolio.react/",
+  "homepage": "/portfolio.react",
   "dependencies": {
     "@mdi/js": "^5.1.45",
     "@testing-library/jest-dom": "^4.2.4",
@@ -17,6 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "buildsub": "react-scripts build PUBLIC_URL=/portfolio.react",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
