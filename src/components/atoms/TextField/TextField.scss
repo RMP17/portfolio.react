@@ -1,0 +1,14 @@
+@import "../../../stylesheets/variables";
+.text-field{
+  background-color: transparent;
+  width: 100%;
+  border: 1px solid $gray-600;
+  padding: 16px;
+  color: white;
+  outline: none;
+  font-size: 12pt;
+
+}
+.text-field:focus{
+  border: 1px solid $quaternary;
+}

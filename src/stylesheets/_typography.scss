@@ -1,0 +1,13 @@
+.title{
+  width: 100%;
+  position: relative;
+  margin: 0 0 2rem 0;
+  color: white;
+}
+.title:first-letter{
+  color: $quaternary;
+  text-shadow: 0 0 20px $quaternary;
+}
+.subtitle{
+  width: 100%;
+}

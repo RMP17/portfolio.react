@@ -1,0 +1,15 @@
+@import "../../../stylesheets/variables";
+.textarea{
+  background-color: transparent;
+  width: 100%;
+  border: 1px solid $gray-600;
+  color: white;
+  outline: none;
+  resize: none;
+  padding: .5rem;
+  height: 10rem;
+  font-size: 12pt;
+}
+.textarea:focus{
+  border: 1px solid $quaternary;
+}

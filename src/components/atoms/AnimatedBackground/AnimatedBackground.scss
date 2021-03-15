@@ -1,0 +1,74 @@
+@import "../../../stylesheets/variables";
+.wrapper {
+  //background: linear-gradient(to bottom, $primary 0%, $secondary 75%);
+  //background-color: $primary;
+  background-color: $gray-700;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -2;
+}
+
+.bg-bubbles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  .bg-bubbles__item {
+    position: absolute;
+    list-style: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(white, 0.15);
+    bottom: 0px;
+
+    animation: square 8s alternate infinite;
+    transition-timing-function: linear;
+
+    $square-position:3%;
+    $animation-delay:1s;
+    $width: 50px;
+    $height: 50px;
+    //$animation-delay:1000s;
+    $animation-duration:8s;
+    $background-color: rgba(white, 0.25);
+    @for $i from 1 through 10{
+      &:nth-child(#{$i}) {
+        width: $width;
+        height: $height;
+        left: $square-position;
+        //animation-delay: $animation-delay;
+        background-color:$background-color;
+        animation-duration: $animation-duration
+
+      }
+      $square-position:$square-position+10;
+      $animation-duration:random(5)+3s;
+      $random-number:random(160)+40px;
+      $width:$random-number;
+      $height :$random-number;
+      $background-color: rgba(white, (random(60)+10)/100);
+      //$animation-duration: random(10)+2s;
+    }
+
+  }
+}
+
+@-webkit-keyframes square {
+  0%   { transform: translateY(50vh); }
+  100% { transform: translateY(-110vh) rotate(600deg); }
+}
+@keyframes square {
+  0%   {
+    transform: translateY(50vh);
+  }
+  100% { transform: translateY(-110vh) rotate(600deg); }
+}
