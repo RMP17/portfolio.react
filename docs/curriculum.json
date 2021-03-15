@@ -1,0 +1,79 @@
+{
+  "name": "Rider Mamani Paco",
+  "profession": "Ingeniero de Sistemas",
+  "birth_date": "1990-11-17",
+  "age": "29",
+  "email": "rdrmamani@gmail.com",
+  "about_me": "Yo soy Rider, Ingeniero de Sistemas, graduado en la Universidad San Francisco Xavier de Chuquisaca. Tengo experiencia en el desarrollo de aplicaciones y sitios web.",
+  "residence": "Bolivia",
+  "address": "Chuquisaca - Sucre",
+  "services": {
+    "title": "Desarrollo web",
+    "description": "Sitio web moderno y listo para dispositivos móviles que lo ayudará a alcanzar todo su retos."
+  },
+  "experience": [
+    {
+      "id": 2,
+      "title": "Desarrollador Front-end",
+      "company": "Openred",
+      "start_year": "2019",
+      "end_year": "",
+      "description": "Supervisar aspectos técnicos de la entrega front-end para varios proyectos."
+    },
+    {
+      "id": 1,
+      "title": "Desarrollador Back-end",
+      "company": "Openred",
+      "start_year": "2018",
+      "end_year": "",
+      "description": "Supervisar aspectos técnicos de la entrega back-end para varios proyectos."
+    }
+  ],
+  "education": [
+    {
+      "id": 3,
+      "title": "Ingeniería de Sistemas",
+      "company": "Bolivia",
+      "start_year": "2018",
+      "end_year": "",
+      "description": "Titulado en Ingeniería De Sistemas de la Universidad de \"San Francisco Xavier de Chuquisaca.\""
+    },
+    {
+      "id": 2,
+      "title": "Técnico  Superior  en  Informática",
+      "company": "Bolivia",
+      "start_year": "2017",
+      "end_year": "",
+      "description": "Titulado como Técnico Superior en Informática de la Universidad de \"San Francisco Xavier de Chuquisaca.\""
+    },
+    {
+      "id": 1,
+      "title": "Bachiller en Humanidades",
+      "company": "Potosi",
+      "start_year": "2008",
+      "end_year": "",
+      "description": "Bachiller en Humanidades “Juan Francisco Bohórquez”."
+    }
+  ],
+  "knowledge": [
+    "Ofimática",
+    "Mantenimiento de equipos de computación",
+    "Instalación y mantenimiento de equipos de redes",
+    "Angular, React, Vue",
+    "Laravel"
+  ],
+  "language": [
+    {
+      "name": "Español",
+      "level": "Fluido"
+    },
+    {
+      "name": "Quechua",
+      "level": "Medio"
+    },
+    {
+      "name": "Ingles",
+      "level": "Bajo"
+    }
+  ]
+}
